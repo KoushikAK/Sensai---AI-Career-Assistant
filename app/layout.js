@@ -5,6 +5,7 @@ import Footer from "@/components/footer2";
 import { ClerkProvider } from "@clerk/nextjs";
 import { Jost } from 'next/font/google';
 import { dark } from "@clerk/themes";
+import { Toaster } from "@/components/ui/sonner";
 
 const jost = Jost({
   subsets: ['latin'],
@@ -34,6 +35,7 @@ export default function RootLayout({ children }) {
           >
             <Header />
             <main className="min-h-screen">{children}</main>
+             <Toaster />
             <Footer />
           </ThemeProvider>
         </body>
