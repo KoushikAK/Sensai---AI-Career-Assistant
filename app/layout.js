@@ -1,7 +1,7 @@
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider"
 import Header from "@/components/header";
-import Footer from "@/components/footer";
+import Footer from "@/components/footer2";
 import { ClerkProvider } from "@clerk/nextjs";
 import { Jost } from 'next/font/google';
 import { dark } from "@clerk/themes";

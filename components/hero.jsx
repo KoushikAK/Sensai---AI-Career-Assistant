@@ -149,8 +149,8 @@ const HeroSection = () => {
             className="rounded-2xl shadow-[0_0_35px_rgba(147,51,234,0.5)] border border-gray-700 mx-auto transition-transform duration-300"
           >
             <Image
-              src="/banner.jpeg"
-              width={1280}
+              src="/Gemini_Generated_Image.png"
+              width={1180}
               height={720}
               alt="Dashboard Preview"
               className="rounded-2xl"
